@@ -1,369 +1,69 @@
-[gd_scene load_steps=3 format=3 uid="uid://6c272b6v2uhe"]
+[gd_scene load_steps=7 format=3 uid="uid://6c272b6v2uhe"]
 
 [ext_resource type="Texture2D" uid="uid://c7h5ps8rykv0s" path="res://croppedBass.png" id="1_o4ta5"]
 [ext_resource type="Texture2D" uid="uid://dkspx3bvxoe61" path="res://Screenshot 2024-04-18 124556.png" id="2_vcxc7"]
+[ext_resource type="AudioStream" uid="uid://dtta34ukj67w8" path="res://audio/E2.wav" id="3_rc1be"]
+[ext_resource type="Script" path="res://Control.gd" id="3_s4s6t"]
+[ext_resource type="AudioStream" uid="uid://gf224ryu6hcj" path="res://audio/E1.wav" id="4_5dcr2"]
+[ext_resource type="AudioStream" uid="uid://ltv5m1rnjbvk" path="res://audio/E3.wav" id="4_yw5p5"]
 
 [node name="Node2D" type="Node2D"]
 
-[node name="CroppedBass" type="Sprite2D" parent="."]
-position = Vector2(579, 555)
-scale = Vector2(0.80904, 0.930693)
-texture = ExtResource("1_o4ta5")
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("3_s4s6t")
 
-[node name="Notes" type="Node2D" parent="."]
+[node name="AudioStreamPlayer1" type="AudioStreamPlayer" parent="Control"]
+process_mode = 1
+stream = ExtResource("4_5dcr2")
 
-[node name="Button36" type="Button" parent="Notes"]
-offset_left = 816.0
-offset_top = 603.0
-offset_right = 856.0
-offset_bottom = 648.0
-disabled = true
-flat = true
-
-[node name="Button37" type="Button" parent="Notes"]
-offset_left = 913.0
-offset_top = 460.0
-offset_right = 953.0
-offset_bottom = 505.0
-flat = true
-
-[node name="Button38" type="Button" parent="Notes"]
-offset_left = 913.0
-offset_top = 508.0
-offset_right = 953.0
-offset_bottom = 553.0
-flat = true
-
-[node name="Button39" type="Button" parent="Notes"]
-offset_left = 912.0
-offset_top = 552.0
-offset_right = 952.0
-offset_bottom = 597.0
-flat = true
-
-[node name="Button40" type="Button" parent="Notes"]
-offset_left = 912.0
+[node name="Button1" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 37.0
 offset_top = 602.0
-offset_right = 952.0
-offset_bottom = 647.0
-disabled = true
-flat = true
-
-[node name="Button41" type="Button" parent="Notes"]
-offset_left = 1012.0
-offset_top = 461.0
-offset_right = 1052.0
-offset_bottom = 506.0
-flat = true
-
-[node name="Button42" type="Button" parent="Notes"]
-offset_left = 1012.0
-offset_top = 509.0
-offset_right = 1052.0
-offset_bottom = 554.0
-flat = true
-
-[node name="Button43" type="Button" parent="Notes"]
-offset_left = 1011.0
-offset_top = 553.0
-offset_right = 1051.0
-offset_bottom = 598.0
-flat = true
-
-[node name="Button44" type="Button" parent="Notes"]
-offset_left = 1011.0
-offset_top = 603.0
-offset_right = 1051.0
-offset_bottom = 648.0
-disabled = true
-flat = true
-
-[node name="Button45" type="Button" parent="Notes"]
-offset_left = 1108.0
-offset_top = 461.0
-offset_right = 1148.0
-offset_bottom = 506.0
-flat = true
-
-[node name="Button46" type="Button" parent="Notes"]
-offset_left = 1108.0
-offset_top = 509.0
-offset_right = 1148.0
-offset_bottom = 554.0
-flat = true
-
-[node name="Button47" type="Button" parent="Notes"]
-offset_left = 1107.0
-offset_top = 553.0
-offset_right = 1147.0
-offset_bottom = 598.0
-flat = true
-
-[node name="Button48" type="Button" parent="Notes"]
-offset_left = 1107.0
-offset_top = 603.0
-offset_right = 1147.0
-offset_bottom = 648.0
-disabled = true
-flat = true
-
-[node name="Button" type="Button" parent="Notes"]
-offset_left = 36.0
-offset_top = 462.0
 offset_right = 76.0
-offset_bottom = 507.0
-flat = true
-
-[node name="Button2" type="Button" parent="Notes"]
-offset_left = 36.0
-offset_top = 510.0
-offset_right = 76.0
-offset_bottom = 555.0
-flat = true
-
-[node name="Button3" type="Button" parent="Notes"]
-offset_left = 35.0
-offset_top = 554.0
-offset_right = 75.0
-offset_bottom = 599.0
-flat = true
-
-[node name="Button4" type="Button" parent="Notes"]
-offset_left = 35.0
-offset_top = 604.0
-offset_right = 75.0
-offset_bottom = 649.0
-disabled = true
-flat = true
-
-[node name="Button5" type="Button" parent="Notes"]
-offset_left = 133.0
-offset_top = 460.0
-offset_right = 173.0
-offset_bottom = 505.0
-flat = true
-
-[node name="Button6" type="Button" parent="Notes"]
-offset_left = 133.0
-offset_top = 508.0
-offset_right = 173.0
-offset_bottom = 553.0
-flat = true
-
-[node name="Button7" type="Button" parent="Notes"]
-offset_left = 132.0
-offset_top = 552.0
-offset_right = 172.0
-offset_bottom = 597.0
-flat = true
-
-[node name="Button8" type="Button" parent="Notes"]
-offset_left = 132.0
-offset_top = 602.0
-offset_right = 172.0
-offset_bottom = 647.0
-disabled = true
-flat = true
-
-[node name="Button9" type="Button" parent="Notes"]
-offset_left = 231.0
-offset_top = 461.0
-offset_right = 271.0
-offset_bottom = 506.0
-flat = true
-
-[node name="Button10" type="Button" parent="Notes"]
-offset_left = 231.0
-offset_top = 509.0
-offset_right = 271.0
-offset_bottom = 554.0
-flat = true
-
-[node name="Button11" type="Button" parent="Notes"]
-offset_left = 230.0
-offset_top = 553.0
-offset_right = 270.0
-offset_bottom = 598.0
-flat = true
-
-[node name="Button12" type="Button" parent="Notes"]
-offset_left = 230.0
-offset_top = 603.0
-offset_right = 270.0
-offset_bottom = 648.0
-disabled = true
-flat = true
-
-[node name="Button13" type="Button" parent="Notes"]
-offset_left = 330.0
-offset_top = 460.0
-offset_right = 370.0
-offset_bottom = 505.0
-flat = true
-
-[node name="Button14" type="Button" parent="Notes"]
-offset_left = 330.0
-offset_top = 508.0
-offset_right = 370.0
-offset_bottom = 553.0
-flat = true
-
-[node name="Button15" type="Button" parent="Notes"]
-offset_left = 329.0
-offset_top = 552.0
-offset_right = 369.0
-offset_bottom = 597.0
-flat = true
-
-[node name="Button16" type="Button" parent="Notes"]
-offset_left = 329.0
-offset_top = 602.0
-offset_right = 369.0
-offset_bottom = 647.0
-disabled = true
-flat = true
-
-[node name="Button17" type="Button" parent="Notes"]
-offset_left = 428.0
-offset_top = 460.0
-offset_right = 468.0
-offset_bottom = 505.0
-flat = true
-
-[node name="Button18" type="Button" parent="Notes"]
-offset_left = 428.0
-offset_top = 508.0
-offset_right = 468.0
-offset_bottom = 553.0
-flat = true
-
-[node name="Button19" type="Button" parent="Notes"]
-offset_left = 427.0
-offset_top = 552.0
-offset_right = 467.0
-offset_bottom = 597.0
-flat = true
-
-[node name="Button20" type="Button" parent="Notes"]
-offset_left = 427.0
-offset_top = 602.0
-offset_right = 467.0
-offset_bottom = 647.0
-disabled = true
-flat = true
-
-[node name="Button21" type="Button" parent="Notes"]
-offset_left = 526.0
-offset_top = 458.0
-offset_right = 566.0
-offset_bottom = 503.0
-flat = true
-
-[node name="Button22" type="Button" parent="Notes"]
-offset_left = 526.0
-offset_top = 506.0
-offset_right = 566.0
-offset_bottom = 551.0
-flat = true
-
-[node name="Button23" type="Button" parent="Notes"]
-offset_left = 525.0
-offset_top = 550.0
-offset_right = 565.0
-offset_bottom = 595.0
-flat = true
-
-[node name="Button24" type="Button" parent="Notes"]
-offset_left = 525.0
-offset_top = 600.0
-offset_right = 565.0
 offset_bottom = 645.0
-disabled = true
-flat = true
 
-[node name="Button25" type="Button" parent="Notes"]
-offset_left = 620.0
-offset_top = 459.0
-offset_right = 660.0
-offset_bottom = 504.0
-flat = true
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="Control"]
+stream = ExtResource("3_rc1be")
 
-[node name="Button26" type="Button" parent="Notes"]
-offset_left = 620.0
-offset_top = 507.0
-offset_right = 660.0
-offset_bottom = 552.0
-flat = true
-
-[node name="Button27" type="Button" parent="Notes"]
-offset_left = 619.0
-offset_top = 551.0
-offset_right = 659.0
-offset_bottom = 596.0
-flat = true
-
-[node name="Button28" type="Button" parent="Notes"]
-offset_left = 619.0
-offset_top = 601.0
-offset_right = 659.0
-offset_bottom = 646.0
-disabled = true
-flat = true
-
-[node name="Button29" type="Button" parent="Notes"]
-offset_left = 719.0
-offset_top = 460.0
-offset_right = 759.0
-offset_bottom = 505.0
-flat = true
-
-[node name="Button30" type="Button" parent="Notes"]
-offset_left = 719.0
-offset_top = 508.0
-offset_right = 759.0
-offset_bottom = 553.0
-flat = true
-
-[node name="Button31" type="Button" parent="Notes"]
-offset_left = 718.0
-offset_top = 552.0
-offset_right = 758.0
-offset_bottom = 597.0
-flat = true
-
-[node name="Button32" type="Button" parent="Notes"]
-offset_left = 718.0
+[node name="Button2" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 135.0
 offset_top = 602.0
-offset_right = 758.0
-offset_bottom = 647.0
-disabled = true
-flat = true
+offset_right = 174.0
+offset_bottom = 644.0
 
-[node name="Button33" type="Button" parent="Notes"]
-offset_left = 817.0
-offset_top = 461.0
-offset_right = 857.0
-offset_bottom = 506.0
-flat = true
+[node name="Button3" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 231.0
+offset_top = 603.0
+offset_right = 269.0
+offset_bottom = 646.0
 
-[node name="Button34" type="Button" parent="Notes"]
-offset_left = 817.0
-offset_top = 509.0
-offset_right = 857.0
-offset_bottom = 554.0
-flat = true
+[node name="AudioStreamPlayer3" type="AudioStreamPlayer" parent="Control"]
+process_mode = 1
+stream = ExtResource("4_yw5p5")
+mix_target = 1
 
-[node name="Button35" type="Button" parent="Notes"]
-offset_left = 816.0
-offset_top = 553.0
-offset_right = 856.0
-offset_bottom = 598.0
-flat = true
+[node name="Node" type="Node" parent="."]
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="Node"]
 
-[node name="Screenshot2024-04-18124556" type="Sprite2D" parent="."]
+[node name="Screenshot2024-04-18124556" type="Sprite2D" parent="Node"]
 z_index = -1
 position = Vector2(582, 257.5)
 scale = Vector2(1.16064, 1.11325)
 texture = ExtResource("2_vcxc7")
+
+[node name="CroppedBass" type="Sprite2D" parent="Node"]
+position = Vector2(579, 555)
+scale = Vector2(0.80904, 0.930693)
+texture = ExtResource("1_o4ta5")
+
+[connection signal="pressed" from="Control/Button1" to="Control" method="_on_button_1_pressed"]
+[connection signal="pressed" from="Control/Button2" to="Control" method="_on_button_2_pressed"]
+[connection signal="pressed" from="Control/Button3" to="Control" method="_on_button_3_pressed"]
