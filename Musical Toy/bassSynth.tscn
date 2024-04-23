@@ -1,20 +1,32 @@
-[gd_scene load_steps=16 format=3 uid="uid://6c272b6v2uhe"]
+[gd_scene load_steps=28 format=3 uid="uid://6c272b6v2uhe"]
 
 [ext_resource type="Texture2D" uid="uid://c7h5ps8rykv0s" path="res://croppedBass.png" id="1_o4ta5"]
 [ext_resource type="Texture2D" uid="uid://dkspx3bvxoe61" path="res://Screenshot 2024-04-18 124556.png" id="2_vcxc7"]
-[ext_resource type="AudioStream" uid="uid://dtta34ukj67w8" path="res://audio/E2.wav" id="3_rc1be"]
+[ext_resource type="AudioStream" uid="uid://dtta34ukj67w8" path="res://audio/AudioE/E2.wav" id="3_rc1be"]
 [ext_resource type="Script" path="res://Control.gd" id="3_s4s6t"]
-[ext_resource type="AudioStream" uid="uid://gf224ryu6hcj" path="res://audio/E1.wav" id="4_5dcr2"]
-[ext_resource type="AudioStream" uid="uid://ltv5m1rnjbvk" path="res://audio/E3.wav" id="4_yw5p5"]
-[ext_resource type="AudioStream" uid="uid://bnuqw3phh0f1v" path="res://audio/E4.wav" id="5_wijy3"]
-[ext_resource type="AudioStream" uid="uid://e268apvypctq" path="res://audio/E5.wav" id="6_7guxt"]
-[ext_resource type="AudioStream" uid="uid://ckk7h8kqkmse5" path="res://audio/E6.wav" id="7_yv0dw"]
-[ext_resource type="AudioStream" uid="uid://3mbw27gaexe2" path="res://audio/E7.wav" id="8_b7qmf"]
-[ext_resource type="AudioStream" uid="uid://c0kn0c4d0g81i" path="res://audio/E8.wav" id="9_5ddo7"]
-[ext_resource type="AudioStream" uid="uid://b5ao3l4teba1p" path="res://audio/E9.wav" id="10_26w8c"]
-[ext_resource type="AudioStream" uid="uid://c5kp8ydqdfoar" path="res://audio/E10.wav" id="11_tpa0m"]
-[ext_resource type="AudioStream" uid="uid://dhmgurkvuku2n" path="res://audio/E11.wav" id="12_0mie0"]
-[ext_resource type="AudioStream" uid="uid://b25oukeai4qoa" path="res://audio/E12.wav" id="13_3y5lj"]
+[ext_resource type="AudioStream" uid="uid://gf224ryu6hcj" path="res://audio/AudioE/E1.wav" id="4_5dcr2"]
+[ext_resource type="AudioStream" uid="uid://ltv5m1rnjbvk" path="res://audio/AudioE/E3.wav" id="4_yw5p5"]
+[ext_resource type="AudioStream" uid="uid://bnuqw3phh0f1v" path="res://audio/AudioE/E4.wav" id="5_wijy3"]
+[ext_resource type="AudioStream" uid="uid://e268apvypctq" path="res://audio/AudioE/E5.wav" id="6_7guxt"]
+[ext_resource type="AudioStream" uid="uid://ckk7h8kqkmse5" path="res://audio/AudioE/E6.wav" id="7_yv0dw"]
+[ext_resource type="AudioStream" uid="uid://3mbw27gaexe2" path="res://audio/AudioE/E7.wav" id="8_b7qmf"]
+[ext_resource type="AudioStream" uid="uid://c0kn0c4d0g81i" path="res://audio/AudioE/E8.wav" id="9_5ddo7"]
+[ext_resource type="AudioStream" uid="uid://b5ao3l4teba1p" path="res://audio/AudioE/E9.wav" id="10_26w8c"]
+[ext_resource type="AudioStream" uid="uid://c5kp8ydqdfoar" path="res://audio/AudioE/E10.wav" id="11_tpa0m"]
+[ext_resource type="AudioStream" uid="uid://dhmgurkvuku2n" path="res://audio/AudioE/E11.wav" id="12_0mie0"]
+[ext_resource type="AudioStream" uid="uid://b25oukeai4qoa" path="res://audio/AudioE/E12.wav" id="13_3y5lj"]
+[ext_resource type="AudioStream" uid="uid://dxcr16ofcul5q" path="res://audio/AudioA/A1.wav" id="14_drpxq"]
+[ext_resource type="AudioStream" uid="uid://clwu2db8331lw" path="res://audio/AudioA/A2.wav" id="15_eau7k"]
+[ext_resource type="AudioStream" uid="uid://bfmkred83mgv1" path="res://audio/AudioA/A3.wav" id="16_3dsq8"]
+[ext_resource type="AudioStream" uid="uid://dsghoaes63387" path="res://audio/AudioA/A4.wav" id="17_56lx7"]
+[ext_resource type="AudioStream" uid="uid://dkpvqq0gk85xy" path="res://audio/AudioA/A5.wav" id="18_bo013"]
+[ext_resource type="AudioStream" uid="uid://b3r0sn3s43mtf" path="res://audio/AudioA/A6.wav" id="19_cqwk1"]
+[ext_resource type="AudioStream" uid="uid://dyaai8gl081fk" path="res://audio/AudioA/A7.wav" id="20_5u1w0"]
+[ext_resource type="AudioStream" uid="uid://sjfmcob1nds1" path="res://audio/AudioA/A8.wav" id="21_chsn6"]
+[ext_resource type="AudioStream" uid="uid://c7jc1wso0ybd1" path="res://audio/AudioA/A9.wav" id="22_0ggu4"]
+[ext_resource type="AudioStream" uid="uid://cv3d4e72ryl4y" path="res://audio/AudioA/A10.wav" id="23_75f3a"]
+[ext_resource type="AudioStream" uid="uid://dwv26w4vok4y4" path="res://audio/AudioA/A11.wav" id="24_eilsw"]
+[ext_resource type="AudioStream" uid="uid://t8ejbdh0un4u" path="res://audio/AudioA/A12.wav" id="25_pwkpj"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -54,7 +66,7 @@ volume_db = -32.686
 
 [node name="AudioStreamPlayer7" type="AudioStreamPlayer" parent="Control"]
 stream = ExtResource("8_b7qmf")
-volume_db = -32.686
+volume_db = -20.935
 
 [node name="AudioStreamPlayer8" type="AudioStreamPlayer" parent="Control"]
 stream = ExtResource("9_5ddo7")
@@ -75,6 +87,57 @@ volume_db = -33.676
 [node name="AudioStreamPlayer12" type="AudioStreamPlayer" parent="Control"]
 stream = ExtResource("13_3y5lj")
 volume_db = -29.045
+
+[node name="AudioStreamPlayer13" type="AudioStreamPlayer" parent="Control"]
+process_mode = 1
+stream = ExtResource("14_drpxq")
+volume_db = -14.991
+
+[node name="AudioStreamPlayer14" type="AudioStreamPlayer" parent="Control"]
+stream = ExtResource("15_eau7k")
+volume_db = -29.982
+
+[node name="AudioStreamPlayer15" type="AudioStreamPlayer" parent="Control"]
+process_mode = 1
+stream = ExtResource("16_3dsq8")
+volume_db = -29.982
+mix_target = 1
+
+[node name="AudioStreamPlayer16" type="AudioStreamPlayer" parent="Control"]
+stream = ExtResource("17_56lx7")
+volume_db = -29.982
+
+[node name="AudioStreamPlayer17" type="AudioStreamPlayer" parent="Control"]
+stream = ExtResource("18_bo013")
+volume_db = -29.982
+
+[node name="AudioStreamPlayer18" type="AudioStreamPlayer" parent="Control"]
+stream = ExtResource("19_cqwk1")
+volume_db = -29.982
+
+[node name="AudioStreamPlayer19" type="AudioStreamPlayer" parent="Control"]
+stream = ExtResource("20_5u1w0")
+volume_db = -29.982
+
+[node name="AudioStreamPlayer20" type="AudioStreamPlayer" parent="Control"]
+stream = ExtResource("21_chsn6")
+volume_db = -29.982
+
+[node name="AudioStreamPlayer21" type="AudioStreamPlayer" parent="Control"]
+stream = ExtResource("22_0ggu4")
+volume_db = -29.982
+
+[node name="AudioStreamPlayer22" type="AudioStreamPlayer" parent="Control"]
+stream = ExtResource("23_75f3a")
+volume_db = -29.982
+
+[node name="AudioStreamPlayer23" type="AudioStreamPlayer" parent="Control"]
+stream = ExtResource("24_eilsw")
+volume_db = -29.982
+
+[node name="AudioStreamPlayer24" type="AudioStreamPlayer" parent="Control"]
+stream = ExtResource("25_pwkpj")
+volume_db = -29.982
 
 [node name="ButtonE1" type="Button" parent="Control"]
 layout_mode = 0
@@ -113,7 +176,7 @@ offset_bottom = 643.0
 
 [node name="ButtonE6" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 528.0
+offset_left = 520.0
 offset_top = 604.0
 offset_right = 556.0
 offset_bottom = 641.0
@@ -160,6 +223,90 @@ offset_top = 606.0
 offset_right = 1145.0
 offset_bottom = 645.0
 
+[node name="ButtonA13" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 31.0
+offset_top = 556.0
+offset_right = 70.0
+offset_bottom = 599.0
+
+[node name="ButtonA14" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 127.0
+offset_top = 556.0
+offset_right = 166.0
+offset_bottom = 598.0
+
+[node name="ButtonA15" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 227.0
+offset_top = 558.0
+offset_right = 265.0
+offset_bottom = 601.0
+
+[node name="ButtonA16" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 318.0
+offset_top = 557.0
+offset_right = 366.0
+offset_bottom = 596.0
+
+[node name="ButtonA17" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 422.0
+offset_top = 561.0
+offset_right = 458.0
+offset_bottom = 596.0
+
+[node name="ButtonA18" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 519.0
+offset_top = 559.0
+offset_right = 557.0
+offset_bottom = 596.0
+
+[node name="ButtonA19" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 619.0
+offset_top = 563.0
+offset_right = 650.0
+offset_bottom = 599.0
+
+[node name="ButtonA20" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 711.0
+offset_top = 558.0
+offset_right = 752.0
+offset_bottom = 597.0
+
+[node name="ButtonA21" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 812.0
+offset_top = 560.0
+offset_right = 846.0
+offset_bottom = 599.0
+
+[node name="ButtonA22" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 908.0
+offset_top = 557.0
+offset_right = 945.0
+offset_bottom = 597.0
+
+[node name="ButtonA23" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 1004.0
+offset_top = 558.0
+offset_right = 1044.0
+offset_bottom = 597.0
+
+[node name="ButtonA24" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 1101.0
+offset_top = 560.0
+offset_right = 1146.0
+offset_bottom = 599.0
+
 [node name="Node" type="Node" parent="."]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="Node"]
@@ -187,3 +334,15 @@ texture = ExtResource("1_o4ta5")
 [connection signal="pressed" from="Control/ButtonE10" to="Control" method="_on_button_10_pressed"]
 [connection signal="pressed" from="Control/ButtonE11" to="Control" method="_on_button_11_pressed"]
 [connection signal="pressed" from="Control/ButtonE12" to="Control" method="_on_button_12_pressed"]
+[connection signal="pressed" from="Control/ButtonA13" to="Control" method="_on_button_13_pressed"]
+[connection signal="pressed" from="Control/ButtonA14" to="Control" method="_on_button_14_pressed"]
+[connection signal="pressed" from="Control/ButtonA15" to="Control" method="_on_button_15_pressed"]
+[connection signal="pressed" from="Control/ButtonA16" to="Control" method="_on_button_16_pressed"]
+[connection signal="pressed" from="Control/ButtonA17" to="Control" method="_on_button_17_pressed"]
+[connection signal="pressed" from="Control/ButtonA18" to="Control" method="_on_button_18_pressed"]
+[connection signal="pressed" from="Control/ButtonA19" to="Control" method="_on_button_19_pressed"]
+[connection signal="pressed" from="Control/ButtonA20" to="Control" method="_on_button_20_pressed"]
+[connection signal="pressed" from="Control/ButtonA21" to="Control" method="_on_button_21_pressed"]
+[connection signal="pressed" from="Control/ButtonA22" to="Control" method="_on_button_22_pressed"]
+[connection signal="pressed" from="Control/ButtonA23" to="Control" method="_on_button_23_pressed"]
+[connection signal="pressed" from="Control/ButtonA24" to="Control" method="_on_button_24_pressed"]

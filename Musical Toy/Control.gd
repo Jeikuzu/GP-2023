@@ -35,3 +35,39 @@ func _on_button_11_pressed():
 	
 func _on_button_12_pressed():
 	$AudioStreamPlayer12.play()
+	
+func _on_button_13_pressed():
+	$AudioStreamPlayer13.play()
+	
+func _on_button_14_pressed():
+	$AudioStreamPlayer14.play()
+	
+func _on_button_15_pressed():
+	$AudioStreamPlayer15.play()
+	
+func _on_button_16_pressed():
+	$AudioStreamPlayer16.play()
+	
+func _on_button_17_pressed():
+	$AudioStreamPlayer17.play()
+	
+func _on_button_18_pressed():
+	$AudioStreamPlayer18.play()
+	
+func _on_button_19_pressed():
+	$AudioStreamPlayer19.play()
+	
+func _on_button_20_pressed():
+	$AudioStreamPlayer20.play()
+	
+func _on_button_21_pressed():
+	$AudioStreamPlayer21.play()
+	
+func _on_button_22_pressed():
+	$AudioStreamPlayer22.play()
+	
+func _on_button_23_pressed():
+	$AudioStreamPlayer23.play()
+	
+func _on_button_24_pressed():
+	$AudioStreamPlayer24.play()
