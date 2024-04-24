@@ -28,6 +28,7 @@ When the player clicks a circle, a button is activated which sends a signal to t
 # References
 
 # What I am most proud of in the assignment
+This assignment has taught me to use Godot effectively. Before I was not a lover of the software but have found great enjoyment in it. I am most proud of my UI.
 
 # Proposal submitted earlier can go here:
 
