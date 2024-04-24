@@ -20,6 +20,8 @@ When the player clicks a circle, a button is activated which sends a signal to t
 | Class/asset | Source |
 |-----------|-----------|
 | ![bassOverlay2](https://github.com/Jeikuzu/GP-2023/assets/90930326/b7c75001-b60f-4099-876c-87410f9fd34c)
+![backgroundBass](https://github.com/Jeikuzu/GP-2023/assets/90930326/5c718595-86f4-4476-a58c-c128c349211e)
+
  | Self written |
 
 
