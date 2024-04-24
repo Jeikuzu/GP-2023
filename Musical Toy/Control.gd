@@ -71,3 +71,75 @@ func _on_button_23_pressed():
 	
 func _on_button_24_pressed():
 	$AudioStreamPlayer24.play()
+	
+func _on_button_25_pressed():
+	$AudioStreamPlayer25.play()
+	
+func _on_button_26_pressed():
+	$AudioStreamPlayer26.play()
+	
+func _on_button_27_pressed():
+	$AudioStreamPlayer27.play()
+	
+func _on_button_28_pressed():
+	$AudioStreamPlayer28.play()
+	
+func _on_button_29_pressed():
+	$AudioStreamPlayer29.play()
+	
+func _on_button_30_pressed():
+	$AudioStreamPlayer30.play()
+	
+func _on_button_31_pressed():
+	$AudioStreamPlayer31.play()
+	
+func _on_button_32_pressed():
+	$AudioStreamPlayer32.play()
+	
+func _on_button_33_pressed():
+	$AudioStreamPlayer33.play()
+	
+func _on_button_34_pressed():
+	$AudioStreamPlayer34.play()
+	
+func _on_button_35_pressed():
+	$AudioStreamPlayer35.play()
+	
+func _on_button_36_pressed():
+	$AudioStreamPlayer36.play()
+	
+func _on_button_37_pressed():
+	$AudioStreamPlayer37.play()
+	
+func _on_button_38_pressed():
+	$AudioStreamPlayer38.play()
+	
+func _on_button_39_pressed():
+	$AudioStreamPlayer39.play()
+	
+func _on_button_40_pressed():
+	$AudioStreamPlayer40.play()
+	
+func _on_button_41_pressed():
+	$AudioStreamPlayer41.play()
+	
+func _on_button_42_pressed():
+	$AudioStreamPlayer42.play()
+	
+func _on_button_43_pressed():
+	$AudioStreamPlayer43.play()
+	
+func _on_button_44_pressed():
+	$AudioStreamPlayer44.play()
+	
+func _on_button_45_pressed():
+	$AudioStreamPlayer45.play()
+	
+func _on_button_46_pressed():
+	$AudioStreamPlayer46.play()
+	
+func _on_button_47_pressed():
+	$AudioStreamPlayer47.play()
+	
+func _on_button_48_pressed():
+	$AudioStreamPlayer48.play()
