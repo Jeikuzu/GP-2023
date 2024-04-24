@@ -1,8 +1,8 @@
-# Project Title
+# The Bassics
 
-Name:
+Name: Jake Duffy
 
-Student Number: 
+Student Number: C23444194
 
 Class Group:
 
