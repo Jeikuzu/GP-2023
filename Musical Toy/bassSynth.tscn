@@ -217,7 +217,7 @@ volume_db = -29.045
 [node name="AudioStreamPlayer37" type="AudioStreamPlayer" parent="Control"]
 process_mode = 1
 stream = ExtResource("38_0pfan")
-volume_db = -30.919
+volume_db = -26.234
 
 [node name="AudioStreamPlayer38" type="AudioStreamPlayer" parent="Control"]
 stream = ExtResource("39_a1eh7")
