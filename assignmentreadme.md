@@ -7,18 +7,21 @@ Student Number: C23444194
 Class Group:
 
 # Description of the project
+“The Bassics” is a musical toy designed to encourage the development of musical skills in a younger audience. The goal of the toy is to begin in a basic environment allowing the user to familiarize themselves with the layout of a bass guitar. With this, users can learn their first song through tabs sheets and apply them in this application.
 
 # Instructions for use
+Players are to tap circles on the fretboard to make the associated sound.
 
 # How it works
+When the player clicks a circle, a button is activated which sends a signal to the play function.
 
 # List of classes/assets in the project and whether made yourself or modified or if its from a source, please give the reference
 
 | Class/asset | Source |
 |-----------|-----------|
-| MyClass.cs | Self written |
-| MyClass1.cs | Modified from [reference]() |
-| MyClass2.cs | From [reference]() |
+| ![bassOverlay2](https://github.com/Jeikuzu/GP-2023/assets/90930326/b7c75001-b60f-4099-876c-87410f9fd34c)
+ | Self written |
+
 
 # References
 
