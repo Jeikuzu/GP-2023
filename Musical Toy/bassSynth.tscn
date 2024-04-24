@@ -1,4 +1,4 @@
-[gd_scene load_steps=40 format=3 uid="uid://6c272b6v2uhe"]
+[gd_scene load_steps=52 format=3 uid="uid://6c272b6v2uhe"]
 
 [ext_resource type="Texture2D" uid="uid://c7h5ps8rykv0s" path="res://croppedBass.png" id="1_o4ta5"]
 [ext_resource type="Texture2D" uid="uid://dkspx3bvxoe61" path="res://Screenshot 2024-04-18 124556.png" id="2_vcxc7"]
@@ -39,6 +39,18 @@
 [ext_resource type="AudioStream" uid="uid://c5j7s3es8j7qj" path="res://audio/AudioD/D10.wav" id="35_nkaqi"]
 [ext_resource type="AudioStream" uid="uid://6ma2sxspgg23" path="res://audio/AudioD/D11.wav" id="36_cftlc"]
 [ext_resource type="AudioStream" uid="uid://cs0cixdsh7afr" path="res://audio/AudioD/D12.wav" id="37_1gi2r"]
+[ext_resource type="AudioStream" uid="uid://b5vfbkvr5oyv4" path="res://audio/AudioG/G1.wav" id="38_0pfan"]
+[ext_resource type="AudioStream" uid="uid://djxren1cpxits" path="res://audio/AudioG/G2.wav" id="39_a1eh7"]
+[ext_resource type="AudioStream" uid="uid://cy5k4yxgxum2u" path="res://audio/AudioG/G3.wav" id="40_edqsx"]
+[ext_resource type="AudioStream" uid="uid://bf35cwvg2w8vj" path="res://audio/AudioG/G4.wav" id="41_3xubk"]
+[ext_resource type="AudioStream" uid="uid://d0ldupudjd332" path="res://audio/AudioG/G5.wav" id="42_m4tx1"]
+[ext_resource type="AudioStream" uid="uid://gc35te0vyqk7" path="res://audio/AudioG/G6.wav" id="43_upuye"]
+[ext_resource type="AudioStream" uid="uid://cgledxywoqnpc" path="res://audio/AudioG/G7.wav" id="44_7ynvc"]
+[ext_resource type="AudioStream" uid="uid://c87hn3yypteln" path="res://audio/AudioG/G8.wav" id="45_261ef"]
+[ext_resource type="AudioStream" uid="uid://dtlxi7pk031" path="res://audio/AudioG/G9.wav" id="46_wt8u8"]
+[ext_resource type="AudioStream" uid="uid://bqka60gjcr3fo" path="res://audio/AudioG/G10.wav" id="47_u34ah"]
+[ext_resource type="AudioStream" uid="uid://d4im2hp3nxq8w" path="res://audio/AudioG/G11.wav" id="48_mnqbe"]
+[ext_resource type="AudioStream" uid="uid://b4tn26knelx5k" path="res://audio/AudioG/G12.wav" id="49_fjp5a"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -204,53 +216,53 @@ volume_db = -29.045
 
 [node name="AudioStreamPlayer37" type="AudioStreamPlayer" parent="Control"]
 process_mode = 1
-stream = ExtResource("14_drpxq")
-volume_db = -14.991
+stream = ExtResource("38_0pfan")
+volume_db = -30.919
 
 [node name="AudioStreamPlayer38" type="AudioStreamPlayer" parent="Control"]
-stream = ExtResource("15_eau7k")
+stream = ExtResource("39_a1eh7")
 volume_db = -29.982
 
 [node name="AudioStreamPlayer39" type="AudioStreamPlayer" parent="Control"]
 process_mode = 1
-stream = ExtResource("16_3dsq8")
+stream = ExtResource("40_edqsx")
 volume_db = -29.982
 mix_target = 1
 
 [node name="AudioStreamPlayer40" type="AudioStreamPlayer" parent="Control"]
-stream = ExtResource("17_56lx7")
+stream = ExtResource("41_3xubk")
 volume_db = -29.982
 
 [node name="AudioStreamPlayer41" type="AudioStreamPlayer" parent="Control"]
-stream = ExtResource("18_bo013")
+stream = ExtResource("42_m4tx1")
 volume_db = -29.982
 
 [node name="AudioStreamPlayer42" type="AudioStreamPlayer" parent="Control"]
-stream = ExtResource("19_cqwk1")
+stream = ExtResource("43_upuye")
 volume_db = -29.982
 
 [node name="AudioStreamPlayer43" type="AudioStreamPlayer" parent="Control"]
-stream = ExtResource("20_5u1w0")
+stream = ExtResource("44_7ynvc")
 volume_db = -29.982
 
 [node name="AudioStreamPlayer44" type="AudioStreamPlayer" parent="Control"]
-stream = ExtResource("21_chsn6")
+stream = ExtResource("45_261ef")
 volume_db = -29.982
 
 [node name="AudioStreamPlayer45" type="AudioStreamPlayer" parent="Control"]
-stream = ExtResource("22_0ggu4")
+stream = ExtResource("46_wt8u8")
 volume_db = -29.982
 
 [node name="AudioStreamPlayer46" type="AudioStreamPlayer" parent="Control"]
-stream = ExtResource("23_75f3a")
+stream = ExtResource("47_u34ah")
 volume_db = -29.982
 
 [node name="AudioStreamPlayer47" type="AudioStreamPlayer" parent="Control"]
-stream = ExtResource("24_eilsw")
+stream = ExtResource("48_mnqbe")
 volume_db = -29.982
 
 [node name="AudioStreamPlayer48" type="AudioStreamPlayer" parent="Control"]
-stream = ExtResource("25_pwkpj")
+stream = ExtResource("49_fjp5a")
 volume_db = -29.982
 
 [node name="ButtonE1" type="Button" parent="Control"]
@@ -640,15 +652,15 @@ texture = ExtResource("1_o4ta5")
 [connection signal="pressed" from="Control/ButtonD34" to="Control" method="_on_button_34_pressed"]
 [connection signal="pressed" from="Control/ButtonD35" to="Control" method="_on_button_35_pressed"]
 [connection signal="pressed" from="Control/ButtonD36" to="Control" method="_on_button_36_pressed"]
-[connection signal="pressed" from="Control/ButtonG37" to="Control" method="_on_button_13_pressed"]
-[connection signal="pressed" from="Control/ButtonG38" to="Control" method="_on_button_14_pressed"]
-[connection signal="pressed" from="Control/ButtonG39" to="Control" method="_on_button_15_pressed"]
-[connection signal="pressed" from="Control/ButtonG40" to="Control" method="_on_button_16_pressed"]
-[connection signal="pressed" from="Control/ButtonG41" to="Control" method="_on_button_17_pressed"]
-[connection signal="pressed" from="Control/ButtonG42" to="Control" method="_on_button_18_pressed"]
-[connection signal="pressed" from="Control/ButtonG43" to="Control" method="_on_button_19_pressed"]
-[connection signal="pressed" from="Control/ButtonG44" to="Control" method="_on_button_20_pressed"]
-[connection signal="pressed" from="Control/ButtonG45" to="Control" method="_on_button_21_pressed"]
-[connection signal="pressed" from="Control/ButtonG46" to="Control" method="_on_button_22_pressed"]
-[connection signal="pressed" from="Control/ButtonG47" to="Control" method="_on_button_23_pressed"]
-[connection signal="pressed" from="Control/ButtonG48" to="Control" method="_on_button_24_pressed"]
+[connection signal="pressed" from="Control/ButtonG37" to="Control" method="_on_button_37_pressed"]
+[connection signal="pressed" from="Control/ButtonG38" to="Control" method="_on_button_38_pressed"]
+[connection signal="pressed" from="Control/ButtonG39" to="Control" method="_on_button_39_pressed"]
+[connection signal="pressed" from="Control/ButtonG40" to="Control" method="_on_button_40_pressed"]
+[connection signal="pressed" from="Control/ButtonG41" to="Control" method="_on_button_41_pressed"]
+[connection signal="pressed" from="Control/ButtonG42" to="Control" method="_on_button_42_pressed"]
+[connection signal="pressed" from="Control/ButtonG43" to="Control" method="_on_button_43_pressed"]
+[connection signal="pressed" from="Control/ButtonG44" to="Control" method="_on_button_44_pressed"]
+[connection signal="pressed" from="Control/ButtonG45" to="Control" method="_on_button_45_pressed"]
+[connection signal="pressed" from="Control/ButtonG46" to="Control" method="_on_button_46_pressed"]
+[connection signal="pressed" from="Control/ButtonG47" to="Control" method="_on_button_47_pressed"]
+[connection signal="pressed" from="Control/ButtonG48" to="Control" method="_on_button_48_pressed"]
