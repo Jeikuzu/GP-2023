@@ -4,7 +4,6 @@ Name: Jake Duffy
 
 Student Number: C23444194
 
-Class Group:
 
 # Description of the project
 “The Bassics” is a musical toy designed to encourage the development of musical skills in a younger audience. The goal of the toy is to begin in a basic environment allowing the user to familiarize themselves with the layout of a bass guitar. With this, users can learn their first song through tabs sheets and apply them in this application.
@@ -15,7 +14,7 @@ Players are to tap circles on the fretboard to make the associated sound.
 # How it works
 When the player clicks a circle, a button is activated which sends a signal to the play function.
 
-# List of classes/assets in the project and whether made yourself or modified or if its from a source, please give the reference
+# List of assets in the project
 
 | Class/asset | Source |
 |-----------|-----------|
@@ -28,7 +27,7 @@ When the player clicks a circle, a button is activated which sends a signal to t
 # What I am most proud of in the assignment
 This assignment has taught me to use Godot effectively. Before I was not a lover of the software but have found great enjoyment in it. I am most proud of my UI.
 
-This is a numbered list
+#Timeline
 
 1. 	Decide on an instrument.
 2.	Designed a background which will fit the chosen aesthetic (synthwave core).
@@ -44,7 +43,7 @@ This is a numbered list
 
 
 
-This is code:
+This is my control code:
 
 ```GDScript
 public void render()
@@ -198,15 +197,10 @@ func _on_button_48_pressed():
 
 
 
-This is an image using a relative URL:
+This is an image of my project in the Godot editor:
 
 ![image](https://github.com/Jeikuzu/GP-2023/assets/90930326/230149a4-aa25-4913-b754-b8f6a8331edc)
 
-
-
-This is an image using an absolute URL:
-
-![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
 
 This is my demo video:
 
