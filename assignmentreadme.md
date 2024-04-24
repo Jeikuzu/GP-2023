@@ -228,7 +228,7 @@ This is an image using an absolute URL:
 
 This is a youtube video:
 
-[![YouTube][(http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)](https://youtu.be/x_2wclLPSd8)
+[![YouTube][(https://youtu.be/x_2wclLPSd8)
 
 This is a table:
 
