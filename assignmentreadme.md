@@ -25,33 +25,24 @@ When the player clicks a circle, a button is activated which sends a signal to t
  | Self written |
 
 
-# References
-
 # What I am most proud of in the assignment
 This assignment has taught me to use Godot effectively. Before I was not a lover of the software but have found great enjoyment in it. I am most proud of my UI.
 
-# Proposal submitted earlier can go here:
-
-## This is how to markdown text:
-
-This is *emphasis*
-
-This is a bulleted list
-
-- Item
-- Item
-
 This is a numbered list
 
-1. Item
-1. Item
+1. 	Decide on an instrument.
+2.	Designed a background which will fit the chosen aesthetic (synthwave core).
+3.	Designed a fretboard UI matching background art.
+4.	Used my bass to record.
+5.	Edited audio in Audacity.
+6.	Create button and streamplayer nodes.
+7.	Insert buttons to scene.
+8.	Create signals between buttons and streamplayer nodes.
+9.	Mixed audio accordingly.
+10.	Test run.
+11.	Adjusted audio settings.
 
-This is a [hyperlink](http://bryanduggan.org)
 
-# Headings
-## Headings
-#### Headings
-##### Headings
 
 This is code:
 
@@ -205,18 +196,7 @@ func _on_button_48_pressed():
 
 ```
 
-So is this without specifying the language:
 
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
 
 This is an image using a relative URL:
 
@@ -230,12 +210,5 @@ This is a youtube video:
 
 [![YouTube][(https://youtu.be/x_2wclLPSd8)]]
 
-This is a table:
 
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
 
